@@ -1,0 +1,4 @@
+FROM scratch
+ADD ca-bundle.crt /etc/ssl/certs/
+COPY pipelinedemo /
+CMD ["/pipelinedemo"]
