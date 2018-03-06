@@ -1,2 +1,2 @@
 # pipelinedemo
-This is a sample go application used to support demonstrating a pipeline.
+This is a sample go application used to support demonstrating a delivery pipeline.

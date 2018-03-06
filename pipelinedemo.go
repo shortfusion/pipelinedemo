@@ -12,7 +12,9 @@ func main() {
 	check(err)
 	body, err := ioutil.ReadAll(resp.Body)
 	check(err)
-	fmt.Println(len(body))
+	fmt.Print("Web page returned ")
+	fmt.Print(len(body))
+	fmt.Println(" bytes")
 }
 
 func check(err error) {
